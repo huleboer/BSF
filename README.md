@@ -15,21 +15,22 @@ Roadmap features
 
 Usage
 =====
-#!/bin/bash
-. /dir/public.sh
-#################
-# SCRIPT HEADER #
-#################
-# Required variables
-# Name of application
-readonly APPNAME="MyAPP"
-# Optional variables (have default values)
-# Where to store lockfiles
-readonly LOCKDIR="/tmp"
-# Where to log
-readonly LOGDIR="/tmp"
-# Backup location
-readonly BACKUPDIR="/var/backup"
+<pre>
+ #!/bin/bash
+ . /dir/public.sh
+ #################
+ # SCRIPT HEADER #
+ #################
+ # Required variables
+ # Name of application
+ readonly APPNAME="MyAPP"
+ # Optional variables (have default values)
+ # Where to store lockfiles
+ readonly LOCKDIR="/tmp"
+ # Where to log
+ readonly LOGDIR="/tmp"
+ # Backup location
+ readonly BACKUPDIR="/var/backup"
 
 # Optional variables
 # Give an error if the script takes longer then this to execute successfull. In seconds
@@ -39,6 +40,7 @@ readonly MAXTIME="60"
 StartScript
 
 # Your code here
+</pre>
 
 License
 =======
