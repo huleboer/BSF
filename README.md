@@ -1,20 +1,20 @@
-About
------
+BSF
+===
 Bash Script Framework (bsf) is some basic scripts to include in your script to provide some basic functionality. Basically I got tired of making it for different companies and in different scripts... It's an early edition.. Consider it alfa software
 
 Features
---------
+========
 * Mutex - Locking. You don't have to be afreid multiple copies of the script execute at the same time
 * Logging - Logs everything to log files and output to console if executed from console
 * Debug - Debug mode on all the time
 
 Roadmap features
-----------------
+================
 * Config file - Turn debugging on and off etc
 * Lot's of functions
 
 Usage
------
+=====
 #!/bin/bash
 . /dir/public.sh
 #################
@@ -41,5 +41,5 @@ StartScript
 # Your code here
 
 License
--------
+=======
 BSD. Do whatever you want with it :)
