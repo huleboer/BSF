@@ -1,0 +1,6 @@
+Tips:
+
+* Add "|| true" if a command is allowed to use exit code 1.. Diff gives exit code 1 if it's not  match...
+* Always use ${variablename} not $variablename
+* If checking for an unexisting variable with nounset, use "${variable}". If you use just ${variable} you'll get an error
+* You can add variables to /etc/sysconfig/appname. The script will read it automatically
