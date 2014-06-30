@@ -1,6 +1,6 @@
 BSF
 ===
-Bash Script Framework (bsf) is some basic scripts to include in your script to provide some basic functionality. Basically I got tired of making it for different companies and in different scripts... It's an early edition.. Consider it alfa software
+Bash Script Framework (BSF) is some basic scripts to include in your script to provide some basic functionality. Basically I got tired of making it for different companies and in different scripts... It's an early edition.. Consider it alfa software
 
 Features
 ========
