@@ -7,8 +7,6 @@
 # SCRIPT HEADER #
 #################
 # Required variables
-# Name of application
-readonly APPNAME="test"
 
 # Optional variables (have default values)
 # Where to store lockfiles
