@@ -24,3 +24,4 @@ readonly BACKUPDIR="/var/backup"
 StartScript
 sleep 1
 echo "dette er en test"
+StopScript
