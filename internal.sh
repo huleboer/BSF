@@ -12,7 +12,7 @@
 # Locking
 AppLock()
 {
- LOCKFILE="$LOCKDIR/$APPNAME.lock"
+ LOCKFILE="$LOCKDIR/$(basename $0).lock"
  exec 200>$LOCKFILE
  flock -n 200 || exit 1
  pid=$$
@@ -37,7 +37,7 @@ SetOptions()
 # Redirect all output to log file and to screen if it it's executed manually by a user
 IoRedirect()
 {
- LOGFILE=$LOGDIR/$APPNAME
+ LOGFILE=$LOGDIR/$(basename $0).log
  if [ ${INTAND}=="non" ]
  then
   exec > >(tee $LOGFILE)
